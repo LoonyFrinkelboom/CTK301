@@ -1,0 +1,27 @@
+html{
+    background-image: url(Sock.png);
+}
+
+text{
+    font-family: sans-serif;
+}
+
+.centered{
+    text-align: center;
+}
+
+.justified{
+    text-align: justify;
+}
+
+h1,h2,h3 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.imgbox{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: yellow;
+}
