@@ -1,0 +1,137 @@
+﻿html {
+    background-color: grey;
+}
+
+#wrapper {
+    background-color: white;
+    border: 3px solid blue;
+    width: 960px;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+a:hover{
+    color: white;
+}
+
+header {
+    grid-column: span 12;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1 a {
+    text-decoration: none;
+    font-style: italic;
+    color: lightblue;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav{
+    grid-column: span 12;
+    border-top: 3px solid darkblue;
+    border-bottom: 3px solid darkblue;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+nav li {
+    width: 240px;
+    display: inline-block;
+    border-right: 3px solid darkblue;
+}
+
+nav li a {
+    color: lightblue;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li a:hover {
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+aside { 
+    grid-column: span 4;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+h2{
+    border-bottom: 3px solid darkblue;
+    padding-bottom: 5px;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside p{
+    text-align: justify;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+#gallerystyle{
+    background-color: white;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+#galleryp{
+    font-weight:normal;
+}
+
+aside a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+aside img{
+    width: 275px;
+    margin-bottom: 30px;
+}
+
+main {
+    grid-column: span 8;
+    background-color: white;
+    padding: 15px;
+}
+
+main a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+main img{
+    float: left;
+    border: 2px solid darkblue;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#floatright{
+    float: right;
+}
+
+main p{
+    font-family: Georgia;
+}
+
+footer {
+    grid-column: span 12;
+    border-top: 3px solid darkblue;
+    background-color: red;
+}
+
+footer img{
+    padding: 5px;
+}
