@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="wrapper">
+
+        <nav>
+            <ul>
+                <li><h1>Seth Huffman</h1></li>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            
+            <h1>Games</h1>
+
+            <div id="myCarousel" class="f-carousel">
+                <div class="f-carousel__slide"><img src="DiscoWall.png"><p>Currently working on: A top-down disco inspired shooter game. Right now it's in the prototyping phase, and this is the first big digital game project that I'm taking on. I'm super excited to see where this project takes me and where I take it.</p></div>
+                <div class="f-carousel__slide"><img src="LoF.png"><p>A card game for 3-4 players all about helping and betraying your way to victory! I was responsible for conceptualization, as well as being the team lead throughout the initial creation of the project. I had a big hand in creating the rules for the game, it's major mechancis, as well as creating a portion of the cards that are in the game. Later on, I designed the rule sheet, as well as worked reworking a lot of cards from our initial playtests to play better</p></div>
+                <div class="f-carousel__slide"><img src="DoF.png"><p>A 1v1 Tarot-inspired card game in which the rules evolve as as the game goes on through players winning Major Arcana cards. I was responsible for the conceptualization of the game, creating the Major Arcana mechanic, as well as designing a handful of the Major Arcana card rules</p></div>
+            </div>
+        </main>
+
+        <footer>
+            <a href="https://twitter.com/frinkelboom" target="_blank" class="bi bi-twitter"></a>
+        </footer>
+    </div>
+    
+    <script>
+        const container = document.getElementById("myCarousel");
+        const options = { infinite: false };
+        new Carousel(container, options);
+    </script>
+</body>
+</html>
